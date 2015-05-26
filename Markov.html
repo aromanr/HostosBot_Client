@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <script src="markov.js"></script>
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	</head>
+
+	<body>
+		<div style="width: 25%;"> 
+			</br>
+			<select id="myselect">
+				<option value="1">Antolog&iacutea</option>
+				<option value="2">Cartas</option>
+				<option value="3">La cuna de Am&eacuterica</option>
+				<option value="4">Diario</option>
+				<option value="5">Hombre e ideas</option>
+				<option value="6">Jeograf&iacutea evolutiva: Jeograf&iacutea intuitiva</option>
+				<option value="7">Lecciones de derechos constitucionales</option>
+				<option value="8">Madre isla: campana politica por Puerto Rico, 1898-1903</option>
+				<option value="9">Meditando</option>
+				<option value="10">Mi viaje al sur</option>
+				<option value="11">Moral social</option>
+				<option value="12">Paginas &iacutentimas</option>
+				<option value="13">La peregrinaci&oacuten de Bayo&aacuten</option>
+				<option value="14">Temas Cubanos</option>
+				<option value="15">Temas Sudamericanos</option>
+				<option value="16">Tratado de Sociolog&iacutea</option>
+				<option value="17">Deepak Chopra</option>
+			</select>
+			<button id="viewSource" onclick="generate()"> View the text</button>
+			</br>
+		</div>
+		<div>
+		 	 <textarea id="out" style="width: 1000px; height: 370px; position: absolute; left: 25%; background-color: #b0e0e6; font-size: 28px; resize: none;"></textarea>
+		</div>
+	</body>
+</html>
